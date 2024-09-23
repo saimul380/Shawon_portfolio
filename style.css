@@ -8,7 +8,7 @@ header{
     height: 837px;
     flex-shrink: 0;
     background: #FFF8F3;
-    background-image: url(/Asset/developer.png),url(/Asset/header_bg.png);
+    background-image: url(/Assets/developer.png),url(/Assets/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left , right bottom;
     
@@ -79,6 +79,8 @@ nav a{
 .intro{
     display: flex;
     padding-left: 230px;
+    width: 100%;
+    
 }
 .intro-grading{
     padding-top: 297px;
@@ -107,7 +109,9 @@ nav a{
     padding-bottom: 30px;
 }
 .hardyImg {
+    
     width: 584px;
     height: 676px;
-    background: url(/Asset/hardy.png) no-repeat;
+    background: url(/Assets/hardy.png) no-repeat;
+    margin-top:50px ;
 }
